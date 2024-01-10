@@ -2,3 +2,116 @@
 /* * {
     border: 2px solid red;
 } */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+/* Hero and header */
+
+.section-one {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.section-one-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    gap: 60px;
+}
+
+.section-one-content-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    gap: 10px;
+}
+
+.section-one-content-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-secondary {
+    size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.hero-button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+}
+
+.hero-image {
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+/* Second part of body */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}

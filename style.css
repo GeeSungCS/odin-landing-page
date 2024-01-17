@@ -99,6 +99,8 @@ body {
 .hero-image {
     border: 2px solid #e5e7eb;
     border-radius: 10px;
+    max-width: 600px;
+    max-height: auto;
 }
 
 /* Second part of body */

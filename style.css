@@ -26,7 +26,7 @@ body {
     width: 100vw; */
 }
 
-/* Hero and header */
+/* First section - Hero and header */
 
 .section-one {
     background-color: #1f2937;
@@ -103,7 +103,7 @@ body {
     max-height: auto;
 }
 
-/* Second part of body */
+/* Second two with icons */
 
 .section-two {
     display: flex;
@@ -179,7 +179,7 @@ body {
     align-self: flex-start;
 }
 
-/* Quote section */
+/* Section 3 - Quote section */
 
 .section-three {
     background-color: #e5e7eb;
@@ -204,3 +204,5 @@ body {
     margin-left: 655px;
     margin-top: 10px;
 }
+
+/* Section 4 */

@@ -252,3 +252,17 @@ body {
     align-items: flex-end;
     margin-left: 300px;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.footer-text {
+    color: #f9faf8;
+}

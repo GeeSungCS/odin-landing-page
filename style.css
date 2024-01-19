@@ -206,3 +206,49 @@ body {
 }
 
 /* Section 4 */
+
+.section-four {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.section-four-hero {
+    color: #f9faf8;
+    margin: 0;
+    font-weight: bold;
+    font-size: large;
+}
+
+.section-four-text {
+    color: #f9faf8;
+    margin: 0;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.sec-4-but {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: 2px solid #f9faf8;
+    font-size: 15px;
+    padding: 5px 30px;
+}
+
+.box-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 300px;
+}
